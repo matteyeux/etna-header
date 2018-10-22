@@ -66,10 +66,10 @@ function s:add_header ()
 
   call s:filetype ()
 
-  let s:header_etna = s:comment .         " ETNA PROJECT, " . strftime ("%d-%m-%Y") . " by LOGIN"
+  let s:header_etna = s:comment .         " ETNA PROJECT, " . strftime ("%d-%m-%Y") . " by hauteb_m"
   let s:project_name = s:comment .        " project_name"
   let s:header_description = s:comment .  " File description: "
-  let s:project_description = s:comment . " project_description"
+  let s:project_description = s:comment . "     project_description"
 
   call append (0, s:comment_start)
   call append (1, s:header_etna)
