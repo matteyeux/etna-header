@@ -35,7 +35,7 @@ function s:filetype ()
       let s:comment_end = s:comment
   elseif l:ft==# 'php'
       let s:comment = "\/\/"
-      let s:comment_start = "#!/usr/local/bin/php<?php"
+      let s:comment_start = "<?php"
       let s:comment_end = s:comment
   elseif l:ft==# 'html'
       let s:comment = " --"
