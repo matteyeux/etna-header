@@ -1,10 +1,3 @@
-##
-## ETNA PROJECT, 20-10-2018 by ROULE_Y
-## ETNA_HEADER
-## File description: 
-## ETNA header for VIM users
-##
-
 ## INSTRUCTIONS
 
 1. Install PATHOGEN PLUGIN MANAGER
